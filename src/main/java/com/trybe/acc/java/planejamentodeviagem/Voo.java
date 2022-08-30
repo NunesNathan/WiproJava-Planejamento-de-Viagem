@@ -11,7 +11,7 @@ public class Voo {
 
     Double duracaoDouble = distanciaKm / 700.0;
 
-    /* Implemente sua solução aqui */
+    return (int) Math.round(duracaoDouble);
   }
 
   /**
@@ -20,6 +20,7 @@ public class Voo {
    */
   public String retornarInformacaoVoo(String embarque, String origem, String desembarque,
       String destino) {
-    /* Implemente sua solução aqui */
+    return "O embarque será: " + embarque + " em " + origem
+            + "\nO desembarque em: " +desembarque + " em " + destino;
   }
 }
