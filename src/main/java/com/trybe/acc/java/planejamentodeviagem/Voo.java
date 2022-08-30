@@ -21,6 +21,6 @@ public class Voo {
   public String retornarInformacaoVoo(String embarque, String origem, String desembarque,
       String destino) {
     return "O embarque será: " + embarque + " em " + origem
-            + "\nO desembarque em: " +desembarque + " em " + destino;
+            + "\nO desembarque em: " + desembarque + " em " + destino;
   }
 }
